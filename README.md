@@ -25,3 +25,10 @@ app = Flask(__name__)
 if __name__ == "__main__":
     app.run()
 ```
+
+Finally run the web app using this command:
+
+```python
+python hello.py
+```
+
