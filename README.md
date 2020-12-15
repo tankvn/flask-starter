@@ -32,3 +32,10 @@ Finally run the web app using this command:
 python hello.py
 ```
 
+### Static Files
+
+```python
+@app.route('/js/<path:path>')
+def send_js(path):
+    return send_from_directory('js', path)
+```
